@@ -18,6 +18,7 @@ body {
 nav.navbar {
     background-color: #191924 !important;
     color: var(--text-color);
+    margin-bottom: 2rem !important;
 }
 
 .navbar-brand,
@@ -76,6 +77,11 @@ button.navbar-toggler:focus {
 
 .navbar-toggler-icon {
     background-color: var(--text-color) !important;
+}
+
+#navbarSupportedContent {
+    transition: height 0.5s ease-in-out !important;
+
 }
 
 header.py-5.my-5 {
