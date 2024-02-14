@@ -68,9 +68,16 @@ div.card.rounded-3.mb-2 {
 .icon-style {
     color: var(--text-color);
 }
-.navbar-toggler-icon{
-   background-color:var(--text-color) !important;
+
+button.navbar-toggler:focus {
+
+    box-shadow: none !important;
 }
+
+.navbar-toggler-icon {
+    background-color: var(--text-color) !important;
+}
+
 header.py-5.my-5 {
     background-color: var(--background-color) !important;
 }
@@ -80,8 +87,8 @@ header.py-5.my-5 {
 }
 
 #preloader {
-    background: url(./assets/preloadimg.jpg) no-repeat center center;
-    background-size: 100%;
+    background: url(./assets/preloadimg.jpg);
+    background-size: cover;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -90,7 +97,7 @@ header.py-5.my-5 {
     transition: opacity 2s ease;
     opacity: 1;
 }
- 
+
 body.loading {
     overflow: hidden;
-} 
+}
