@@ -68,7 +68,9 @@ div.card.rounded-3.mb-2 {
 .icon-style {
     color: var(--text-color);
 }
-
+.navbar-toggler-icon{
+   background-color:#D8D8D8 !important;
+}
 header.py-5.my-5 {
     background-color: var(--background-color) !important;
 }
